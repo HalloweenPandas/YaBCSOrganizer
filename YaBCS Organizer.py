@@ -134,7 +134,7 @@ class MainWindow(wx.Frame):
         self.gender = wx.ComboBox(self, choices=["Male", "Female"], style=wx.CB_READONLY, size=(80, -1))
         self.gender.Disable()
 
-        self.race = wx.ComboBox(self, choices=["Human", "Saiyan", "Namekian", "Frieza", "Majin", "Android (?)"],
+        self.race = wx.ComboBox(self, choices=["Human", "Saiyan", "Namekian", "Frieza", "Majin", "Other"],
                                 style=wx.CB_READONLY, size=(80, -1))
         self.race.Disable()
 
